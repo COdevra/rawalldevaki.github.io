@@ -1,0 +1,165 @@
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #aedef5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #6ca7b3;
+  }
+
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d77b7b;
+    border-radius: 4px;
+  }
+
+  .contact-form textarea {
+    resize: vertical;
+    height: 120px;
+   
+  }
+
+  .contact-form button[type="submit"] {
+    background-color: #0c95da;
+    color: #1d1b1b;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .contact-form button[type="submit"]:hover {
+    background-color: #a1d4cc;
+  }
+  *{
+    color: #1d1b1b;
+  }
+  .contact-info{
+    color: #1d1b1b;
+
+  }
+  .container{
+    background-color: #f7f7f7;
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+  padding: 80px 0;
+  background:#f7f7f7;
+}
+
+.contact .section-title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.contact .section-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact .section-title p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contact .contact-form {
+  margin-top: 30px;
+}
+
+.contact .contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact .contact-form .form-group input,
+.contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact .contact-form .form-group textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact .contact-form .submit-btn {
+  background: #20c9a6;
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 4px;
+}
+
+.contact .contact-form .submit-btn:hover {
+  background: #1a9985;
+}
+
+.contact .contact-info {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact .contact-info p {
+  font-size: 20px;
+  margin-bottom: 0;
+  color:rgb(2, 1, 1)
+  
+}
+
+.contact .contact-info p.email {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact .contact-info p.email a {
+  color: rgb(12, 11, 11);
+}
+.section-title{
+    color: rgb(244, 241, 241);
+    text-align: justify;
+    text-size-adjust: 33px;
+}
+
+
+form{
+ text-align: center;
+
+}

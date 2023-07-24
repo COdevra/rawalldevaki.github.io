@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dev.css"> 
+    <link rel="stylesheet" href="css/resume.css"> 
+</head>
+<body>
+
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Devaki Rawal</a></li>
+            <li><a href="Explore.html">Explore</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    
+        <script>
+          function toggleSectionDetails(sectionId) {
+            var arrow = document.getElementById(sectionId + "-arrow");
+            var details = document.getElementById(sectionId + "-details");
+            
+            if (arrow.classList.contains("arrow-down")) {
+              arrow.classList.remove("arrow-down");
+              details.style.display = "none";
+            } else {
+              arrow.classList.add("arrow-down");
+              details.style.display = "block";
+            }
+          }
+        </script>
+      </head>
+      <body>
+        <div class="container">
+          <h1>Devaki Rawal</h1>
+          <p>AI|ML|Data Science|Web Dev Enthusiast</p>
+          
+          <div class="section">
+            <h2 class="section-title">Summary</h2>
+            <p class="section-content">I am a High School student seeking for opportunities to explore myself.I am a aspire Entrepreneur with passion to impact thousand of lives using tech.</p>
+          </div>
+          
+          <div class="section">
+            <div class="section-title-wrapper" onclick="toggleSectionDetails('experience')">
+              <h2 class="section-title">Experience</h2>
+              <span id="experience-arrow" class="arrow"></span>
+            </div>
+            <div class="section-details" id="experience-details">
+              <h3>AuraEd</h3>
+              <p><em>Frontend Developer</em></p>
+              <p>June 2022 - Nov 2022</p>
+              <ul>
+                <li>Developed responsive web applications using HTML, CSS, and JavaScript</li>
+                <li>Teaching Student Web Development</li>
+                <li>Optimized web applications for maximum speed and scalability</li>
+              </ul>
+              <br>
+              <br>
+
+              <h3>Summit on Comprehensive School Safety 2019</h3>
+              <p><em>State Representative</em></p>
+              <p>Aug 2019 </p>
+              <ul>
+                <li>Leadership</li>
+                <li>Exploring public Speaking</li>
+                <li>Networking with Japanese,Russian and Turkish friends</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="section">
+            <div class="section-title-wrapper" onclick="toggleSectionDetails('education')">
+              <h2 class="section-title">Education</h2>
+              <span id="education-arrow" class="arrow"></span>
+            </div>
+            <div class="section-details" id="education-details">
+              <h3>Shree Chandannath Model Secondary School</h3>
+              <p><em>Class 1-Class 10</em></p>
+              <p>2011- 2021</p>
+              <br>
+              <br>
+              <h3>St.Xavier's College</h3>
+              <p><em>Class 11-Class 12</em></p>
+              <p>2021- 2023</p>
+            </div>
+          </div>
+          
+          <div class="section">
+            <div class="section-title-wrapper" onclick="toggleSectionDetails('skills')">
+              <h2 class="section-title">Skills</h2>
+              <span id="skills-arrow" class="arrow"></span>
+            </div>
+            <div class="section-details" id="skills-details">
+              <ul>
+                <li>Web Development</li>
+                <li>Machine Learning-python</li>
+                <li>Data Science- Python</li>
+                <li>Public Speaking</li>
+                <li>Leadership and Communication</li>
+                <li>Marketing</li>
+                <li>Fluent English</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="section">
+            <div class="section-title-wrapper" onclick="toggleSectionDetails('extracurriculars')">
+              <h2 class="section-title">Extracurriculars</h2>
+              <span id="extracurriculars-arrow" class="arrow"></span>
+            </div>
+            <div class="section-details" id="extracurriculars-details">
+              <ul>
+                <li>Volunteering at PIE- as a Teacher</li>
+                <li>Organizing tech meetups</li>
+                <li>Participating in hackathons</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="section">
+            <div class="section-title-wrapper" onclick="toggleSectionDetails('achievements')">
+              <h2 class="section-title">Achievements</h2>
+              <span id="achievements-arrow" class="arrow"></span>
+            </div>
+            <div class="section-details" id="achievements-details">
+              <ul>
+               <li>Code Jam Winner in inter-College Coding Competition</li>
+                 <li> Girls Who Code(SIP)-2022 and 2023 student</li>
+                 <li>St.Xavier's Full Scholarship</li> 
+                  <li>One of Top 20 Climate Smart Entrepreneur 2023 winner</li>
+                  <li>Youth Sounding Board Cohort</li>
+                  <li>Womanium Quantum Scholar </li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="section">
+            <a class="resume-download" href="https://drive.google.com/file/d/1le9oKD2dtkW0IrI8fC_kH6jqBOSFacu7/view?usp=sharing" target="_blank">Download CV</a>
+          </div>
+        </div>
+      
+
+
+
+
+       
+         
+
+
+
+      <footer>
+        <p>&copy; 2023 Devaki Rawal. All rights reserved.</p>
+    
+      </footer>
+      
+      
+    
+</body>
+</html>

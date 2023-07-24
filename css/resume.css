@@ -1,0 +1,84 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #cde2ef;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+     
+    }
+    
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    
+    p {
+      margin: 0;
+    }
+    
+    .section {
+      margin-bottom: 30px;
+    }
+    
+    .section-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .section-content {
+      margin-left: 20px;
+    }
+    
+    .section-content ul {
+      padding-left: 20px;
+    }
+    
+    .section-content li {
+      margin-bottom: 10px;
+    }
+    
+    .section-title-wrapper {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    
+    .arrow {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-right: 2px solid #000;
+      border-bottom: 2px solid #000;
+      transform: rotate(45deg);
+      transition: transform 0.2s ease-in-out;
+      margin-left: 5px;
+    }
+    
+    .arrow-down {
+      transform: rotate(45deg) translateY(3px);
+    }
+    
+    .section-details {
+      display: none;
+      margin-top: 10px;
+    }
+    
+    .resume-download {
+      background-color: #2596be;
+      color: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .container{
+        border-radius:3px solid;
+        border-color: #2596be;
+    }
